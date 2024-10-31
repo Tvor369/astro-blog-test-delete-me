@@ -1,6 +1,7 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
+
 
 <html lang="en">
 	<head>
@@ -9,6 +10,11 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>My Site : About</title>
+
+		<BaseLayout>
+			<h1>About Page</h1>
+		</BaseLayout>
+
 	</head>
 	<body>
         <a href="/">Home</a>
